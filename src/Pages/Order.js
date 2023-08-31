@@ -5,7 +5,7 @@ import DoorDash from "../Asstes/door-dash.jpg"
 import UberEats from "../Asstes/uber-eats.jpg"
 const Order = () => {
   return (
-    <div name='/resturant-website/order' className="max-w-[1800px] w-full h-full bg-white my-8 mx-auto">
+    <div className="max-w-[1800px] w-full h-full bg-white my-8 mx-auto">
       <div className="relative">
       <div className="absolute bottom-0 w-full h-40 bg-black bg-opacity-70 flex items-center justify-center">
         <div className="text-center">

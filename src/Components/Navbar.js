@@ -56,7 +56,9 @@ const Navbar = () => {
           Contact Us
           </Link>
         </li>
-        <Button />
+        <Link to="/resturant-website/order" smooth={true} duration={500}>
+          Order
+        </Link>
       </ul>
 
        {/*Mobile Menu*/}
@@ -100,8 +102,10 @@ const Navbar = () => {
           Contact Us
           </Link>
         </li>
-        <li className="py-8" >
-        <Button />
+        <li className="py-6 text-4xl border-b-2 border-gray-950" >
+        <Link onClick={handleNavClick} to="/resturant-website/order" smooth={true} duration={500}>
+          Order
+          </Link>
         </li>
         
       </ul>
