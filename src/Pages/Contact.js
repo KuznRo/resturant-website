@@ -69,12 +69,14 @@ const Contact = () => {
               className="w-full border border-gray-300 p-2 rounded"
             ></textarea>
           </div>
-          <button
-            type="submit"
-            className="bg-yellow-500 text-gray-950 py-2 px-4 rounded font-semibold hover:bg-yellow-600"
-          >
-            Send Message
-          </button>
+          <a href="https://www.gmail.com" target="_blank" rel="noopener noreferrer">
+            <button
+              type="button"
+              className="bg-yellow-500 text-gray-950 py-2 px-4 rounded font-semibold hover:bg-yellow-600"
+            >
+              Send Message
+            </button>
+          </a>
         </form>
       </div>
     </div>
