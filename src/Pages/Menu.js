@@ -50,7 +50,7 @@ const Desserts = [
 
 const Menu = () => {
   return (
-    <div className="max-w-[1800px] w-full h-full bg-gray-50 mx-auto">
+    <div name='/resturant-website/menu' className="max-w-[1800px] w-full h-full bg-gray-50 mx-auto">
       <div className="relative">
         <div className="absolute bottom-0 w-full h-40 bg-black bg-opacity-70 flex items-center justify-center">
           <div className="text-center">
