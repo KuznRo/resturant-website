@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Dinner from "../Asstes/dinner.jpg";
 import Lunch from "../Asstes/lunch.jpg";
 import Sides from "../Asstes/sides.jpg";
@@ -17,9 +18,9 @@ const HomeMenu = () => {
       <div className="auto-container">
         <div className="max-w-[1400px] mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {menuItems.map((item, index) => (
-            <a
+            <Link
               key={index}
-              href={item.path}
+              to={item.path}
               className="menu-block shadow-lg mt-4 hover:scale-105 duration-500"
             >
               <div className="inner-box">
@@ -41,7 +42,7 @@ const HomeMenu = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
@@ -50,3 +51,4 @@ const HomeMenu = () => {
 };
 
 export default HomeMenu;
+
