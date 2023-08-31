@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/resturant-website/static/css/main.5e435297.css",
+    "main.js": "/resturant-website/static/js/main.c47d3065.js",
+    "static/media/restaurant.jpg": "/resturant-website/static/media/restaurant.c1f970303cb4db8211ab.jpg",
+    "static/media/cobbler.jpg": "/resturant-website/static/media/cobbler.acb7e7ca27e284220486.jpg",
+    "static/media/hero-plate.jpg": "/resturant-website/static/media/hero-plate.4838b35681f7a7909ab6.jpg",
+    "static/media/cornbread.jpg": "/resturant-website/static/media/cornbread.e2516c18a051f87eb2cf.jpg",
+    "static/media/dinner.jpg": "/resturant-website/static/media/dinner.1ab99f3adce3de82c999.jpg",
+    "static/media/lunch.jpg": "/resturant-website/static/media/lunch.80af84a98d914304d651.jpg",
+    "static/media/lunch-wings.jpg": "/resturant-website/static/media/lunch-wings.7fabbea8f1d9e371c849.jpg",
+    "static/media/eggs.jpg": "/resturant-website/static/media/eggs.b686974a87456811532a.jpg",
+    "static/media/catfish.jpg": "/resturant-website/static/media/catfish.882a33d63ddbc2854cfc.jpg",
+    "static/media/cheesecake.jpg": "/resturant-website/static/media/cheesecake.512add3f7950ad1c0ed6.jpg",
+    "static/media/yams.jpg": "/resturant-website/static/media/yams.6d407a61fabaaf969851.jpg",
+    "static/media/sides.jpg": "/resturant-website/static/media/sides.75b4e32be69c81e98b4f.jpg",
+    "static/media/grubhub.jpg": "/resturant-website/static/media/grubhub.53d85c60cda7c68df050.jpg",
+    "static/media/uber-eats.jpg": "/resturant-website/static/media/uber-eats.2ee25aefb1919e9b742d.jpg",
+    "static/media/dinner-lasagna.jpg": "/resturant-website/static/media/dinner-lasagna.98304a7e59b63b08273c.jpg",
+    "static/media/review_3.jpg": "/resturant-website/static/media/review_3.932824f7596837ec8214.jpg",
+    "static/media/review_1.jpg": "/resturant-website/static/media/review_1.fa194102d7833c1e280f.jpg",
+    "static/media/review_2.jpg": "/resturant-website/static/media/review_2.068370f9dd05be6a76b1.jpg",
+    "static/media/logo.jpg": "/resturant-website/static/media/logo.92fb1c08cfc69c632dab.jpg",
+    "static/media/door-dash.jpg": "/resturant-website/static/media/door-dash.d1f16d9fc77d74632339.jpg",
+    "index.html": "/resturant-website/index.html",
+    "main.5e435297.css.map": "/resturant-website/static/css/main.5e435297.css.map",
+    "main.c47d3065.js.map": "/resturant-website/static/js/main.c47d3065.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e435297.css",
+    "static/js/main.c47d3065.js"
+  ]
+}
