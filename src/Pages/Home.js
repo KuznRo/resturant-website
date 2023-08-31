@@ -7,7 +7,7 @@ import Hero from "./Hero";
 
 function Home() {
   return (
-    <div name='/' className="w-full">
+    <div name='/resturant-website' className="w-full">
     <Hero />
     <HomeMenu />
     <About />

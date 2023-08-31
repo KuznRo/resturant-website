@@ -6,10 +6,10 @@ import Cobbler from "../Asstes/cobbler.jpg";
 
 const HomeMenu = () => {
   const menuItems = [
-    { image: Dinner, title: "Dinner Menu", path: "/menu" },
-    { image: Lunch, title: "Lunch Menu", path: "/menu" },
-    { image: Sides, title: "Side Dishes", path: "/menu" },
-    { image: Cobbler, title: "Desserts", path: "/menu" },
+    { image: Dinner, title: "Dinner Menu", path: "/resturant-website/menu" },
+    { image: Lunch, title: "Lunch Menu", path: "/resturant-website/menu" },
+    { image: Sides, title: "Side Dishes", path: "/resturant-website/menu" },
+    { image: Cobbler, title: "Desserts", path: "/resturant-website/menu" },
   ];
 
   return (

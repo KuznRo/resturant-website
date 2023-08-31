@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import Logo from '../Asstes/logo.png';
+import Logo from '../Asstes/logo.jpg';
 import { FaBars, FaX } from "react-icons/fa6";
 import Button from './Button';
 import { useState } from 'react';
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className='w-full text-gray-800 bg-gray-50 py-4 flex justify-center md:justify-between items-center px-4'>
       <div className='flex flex-col items-center md:flex-row md:items-center'>
-      <a href='/' className='flex items-center'>
+      <a href='/resturant-website' className='flex items-center'>
           <h1 className='text-2xl font-bold mr-4 '>Soul For</h1>
           <img src={Logo} alt='logo' className='w-[70px]' />
           <h1 className='text-2xl font-bold ml-4 '>Your Soul</h1>
@@ -32,27 +32,27 @@ const Navbar = () => {
       {/* Menu */}
       <ul className="hidden md:flex space-x-4 text-lg font-semibold mr-4">
         <li>
-        <Link to="/" smooth={true} duration={500}>
+        <Link to="/resturant-website" smooth={true} duration={500}>
           Home
         </Link>
         </li>
         <li>
-        <Link to="/menu" smooth={true} duration={500}>
+        <Link to="/resturant-website/menu" smooth={true} duration={500}>
           Menu
         </Link>
         </li>
         <li>
-        <Link to="about" smooth={true} duration={500}>
+        <Link to="/resturant-website/about" smooth={true} duration={500}>
           About us
           </Link>
         </li>
         <li>
-        <Link to="testimonials" smooth={true} duration={500}>
+        <Link to="/resturant-website/testimonials" smooth={true} duration={500}>
           Testimonials
           </Link>
         </li>
         <li>
-        <Link to="/contact" smooth={true} duration={500}>
+        <Link to="/resturant-website/contact" smooth={true} duration={500}>
           Contact Us
           </Link>
         </li>
@@ -76,27 +76,27 @@ const Navbar = () => {
             </div>
 
         <li className="py-6 text-4xl border-b-2 border-gray-950" >
-        <Link onClick={handleNavClick} to="/" smooth={true} duration={500}>
+        <Link onClick={handleNavClick} to="/resturant-website" smooth={true} duration={500}>
           Home
         </Link>
         </li>
         <li className="py-6 text-4xl border-b-2 border-gray-950" >
-        <Link onClick={handleNavClick} to="/menu" smooth={true} duration={500}>
+        <Link onClick={handleNavClick} to="/resturant-website/menu" smooth={true} duration={500}>
           Menu
         </Link>
         </li>
         <li className="py-6 text-4xl border-b-2 border-gray-950" >
-        <Link onClick={handleNavClick} to="about" smooth={true} duration={500}>
+        <Link onClick={handleNavClick} to="/resturant-website/about" smooth={true} duration={500}>
           About us
           </Link>
         </li>
         <li className="py-6 text-4xl border-b-2 border-gray-950" >
-        <Link onClick={handleNavClick} to="testimonials" smooth={true} duration={500}>
+        <Link onClick={handleNavClick} to="/resturant-website/testimonials" smooth={true} duration={500}>
           Testimonials
           </Link>
         </li>
         <li className="py-6 text-4xl border-b-2 border-gray-950" >
-        <Link onClick={handleNavClick} to="/contact" smooth={true} duration={500}>
+        <Link onClick={handleNavClick} to="/resturant-website/contact" smooth={true} duration={500}>
           Contact Us
           </Link>
         </li>

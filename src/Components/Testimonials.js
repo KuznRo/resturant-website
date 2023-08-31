@@ -38,7 +38,7 @@ const Testimonials = () => {
   const testimonial = testimonialsData[currentTestimonial];
 
   return (
-    <div name='testimonials' className='md:w-[1000px] bg-gray-50 mx-auto flex flex-col justify-center items-center py-8'>
+    <div name='/resturant-website/testimonials' className='md:w-[1000px] bg-gray-50 mx-auto flex flex-col justify-center items-center py-8'>
       <h3 className='text-lg text-gray-950 font-semibold border-b-2 border-yellow-500'>Testimonials</h3>
       <div className='py-4 flex justify-center items-center'>
         <h2 className='text-3xl text-yellow-500 font-bold'>Our Customer Reviews</h2>

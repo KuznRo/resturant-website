@@ -1,10 +1,10 @@
 import React from "react";
-import Logo from "../Asstes/logo.png";
+import Logo from "../Asstes/logo.jpg";
 import Restaurant from "../Asstes/restaurant.jpg";
 
 const About = () => {
   return (
-    <section name='about' className=" bg-white py-20">
+    <section name='/resturant-website/about' className=" bg-white py-20">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center">
         <div className="md:w-1/2 md:pr-8">
           <div className="text-center mb-4">

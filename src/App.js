@@ -16,12 +16,12 @@ function App() {
       <Socials />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/order" element={<Order />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="about" element={<About />} />
-        <Route path="testimonials" element={<Testimonials />} />
+        <Route path="/resturant-website" element={<Home />} />
+        <Route path="/resturant-website/order" element={<Order />} />
+        <Route path="/resturant-website/contact" element={<Contact />} />
+        <Route path="/resturant-website/menu" element={<Menu />} />
+        <Route path="/resturant-website/about" element={<About />} />
+        <Route path="/resturant-website/testimonials" element={<Testimonials />} />
       </Routes>
       <Footer />
     </Router>
